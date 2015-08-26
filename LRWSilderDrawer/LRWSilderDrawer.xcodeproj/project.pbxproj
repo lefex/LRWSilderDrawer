@@ -14,6 +14,7 @@
 		34FED6B11B83FF86007E2989 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FED6B01B83FF86007E2989 /* Images.xcassets */; };
 		34FED6B41B83FF86007E2989 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FED6B21B83FF86007E2989 /* LaunchScreen.xib */; };
 		34FED6C01B83FF86007E2989 /* LRWSilderDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FED6BF1B83FF86007E2989 /* LRWSilderDrawerTests.swift */; };
+		34FED6CB1B840145007E2989 /* LRWLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FED6CA1B840145007E2989 /* LRWLeftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		34FED6A51B83FF86007E2989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34FED6A61B83FF86007E2989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34FED6A91B83FF86007E2989 /* LRWSilderDrawer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LRWSilderDrawer.xcdatamodel; sourceTree = "<group>"; };
-		34FED6AB1B83FF86007E2989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34FED6AB1B83FF86007E2989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; };
 		34FED6AE1B83FF86007E2989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34FED6B01B83FF86007E2989 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		34FED6B31B83FF86007E2989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		34FED6B91B83FF86007E2989 /* LRWSilderDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRWSilderDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FED6BE1B83FF86007E2989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34FED6BF1B83FF86007E2989 /* LRWSilderDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRWSilderDrawerTests.swift; sourceTree = "<group>"; };
+		34FED6CA1B840145007E2989 /* LRWLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRWLeftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +81,7 @@
 		34FED6A31B83FF86007E2989 /* LRWSilderDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				34FED6A61B83FF86007E2989 /* AppDelegate.swift */,
-				34FED6AB1B83FF86007E2989 /* ViewController.swift */,
-				34FED6AD1B83FF86007E2989 /* Main.storyboard */,
-				34FED6B01B83FF86007E2989 /* Images.xcassets */,
-				34FED6B21B83FF86007E2989 /* LaunchScreen.xib */,
-				34FED6A81B83FF86007E2989 /* LRWSilderDrawer.xcdatamodeld */,
+				34FED6C91B840084007E2989 /* LRWLibrary */,
 				34FED6A41B83FF86007E2989 /* Supporting Files */,
 			);
 			path = LRWSilderDrawer;
@@ -93,6 +90,12 @@
 		34FED6A41B83FF86007E2989 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34FED6A61B83FF86007E2989 /* AppDelegate.swift */,
+				34FED6AB1B83FF86007E2989 /* ViewController.swift */,
+				34FED6AD1B83FF86007E2989 /* Main.storyboard */,
+				34FED6B01B83FF86007E2989 /* Images.xcassets */,
+				34FED6B21B83FF86007E2989 /* LaunchScreen.xib */,
+				34FED6A81B83FF86007E2989 /* LRWSilderDrawer.xcdatamodeld */,
 				34FED6A51B83FF86007E2989 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +116,14 @@
 				34FED6BE1B83FF86007E2989 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FED6C91B840084007E2989 /* LRWLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				34FED6CA1B840145007E2989 /* LRWLeftViewController.swift */,
+			);
+			path = LRWLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 		34FED6991B83FF86007E2989 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LRW;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = WSY;
 				TargetAttributes = {
@@ -216,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34FED6AC1B83FF86007E2989 /* ViewController.swift in Sources */,
+				34FED6CB1B840145007E2989 /* LRWLeftViewController.swift in Sources */,
 				34FED6A71B83FF86007E2989 /* AppDelegate.swift in Sources */,
 				34FED6AA1B83FF86007E2989 /* LRWSilderDrawer.xcdatamodeld in Sources */,
 			);

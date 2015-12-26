@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3454B44E1B99A12800FB7E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454B44D1B99A12800FB7E40 /* AppDelegate.swift */; };
+		3454B4511B99A12800FB7E40 /* LeftSlider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3454B44F1B99A12800FB7E40 /* LeftSlider.xcdatamodeld */; };
+		3454B4531B99A12800FB7E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454B4521B99A12800FB7E40 /* ViewController.swift */; };
+		3454B4561B99A12800FB7E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3454B4541B99A12800FB7E40 /* Main.storyboard */; };
+		3454B45B1B99A12800FB7E40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3454B4591B99A12800FB7E40 /* LaunchScreen.xib */; };
+		3454B4671B99A12800FB7E40 /* LeftSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454B4661B99A12800FB7E40 /* LeftSliderTests.swift */; };
+		3454B4711B99A14500FB7E40 /* LSWLeftSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454B4701B99A14500FB7E40 /* LSWLeftSliderView.swift */; };
+		34CD33011B9BC5260036418C /* LSWLeftCellConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD33001B9BC5260036418C /* LSWLeftCellConfigure.swift */; };
+		34D0D0DC1B99B2E40019CDE0 /* LSWLeftSliderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0DB1B99B2E40019CDE0 /* LSWLeftSliderTableView.swift */; };
+		34D0D0DE1B99B3BC0019CDE0 /* LSWLeftSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0DD1B99B3BC0019CDE0 /* LSWLeftSliderCell.swift */; };
+		34D0D0E01B9A70810019CDE0 /* LSWLeftSlideContraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0DF1B9A70810019CDE0 /* LSWLeftSlideContraint.swift */; };
+		34D0D0E21B9A7B760019CDE0 /* LSWLeftSliderTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0E11B9A7B760019CDE0 /* LSWLeftSliderTopView.swift */; };
+		34D0D0EA1B9A8BF30019CDE0 /* UIImage+LSWCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0E91B9A8BF30019CDE0 /* UIImage+LSWCommon.m */; };
+		34D0D0EC1B9A8D2B0019CDE0 /* LSWUserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0EB1B9A8D2B0019CDE0 /* LSWUserMessage.swift */; };
+		34D0D0F41B9ABAE50019CDE0 /* LSWLeftSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0F31B9ABAE50019CDE0 /* LSWLeftSettingView.swift */; };
+		34D0D0F61B9ABBEA0019CDE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D0D0F51B9ABBEA0019CDE0 /* Images.xcassets */; };
+		34D0D0F91B9AEC0D0019CDE0 /* LSWLeftSliderClickDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D0F81B9AEC0D0019CDE0 /* LSWLeftSliderClickDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3454B4611B99A12800FB7E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3454B4401B99A12700FB7E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3454B4471B99A12700FB7E40;
+			remoteInfo = LeftSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3454B4481B99A12700FB7E40 /* LeftSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3454B44C1B99A12700FB7E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3454B44D1B99A12800FB7E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3454B4501B99A12800FB7E40 /* LeftSlider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeftSlider.xcdatamodel; sourceTree = "<group>"; };
+		3454B4521B99A12800FB7E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3454B4551B99A12800FB7E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3454B45A1B99A12800FB7E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3454B4601B99A12800FB7E40 /* LeftSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3454B4651B99A12800FB7E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3454B4661B99A12800FB7E40 /* LeftSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSliderTests.swift; sourceTree = "<group>"; };
+		3454B4701B99A14500FB7E40 /* LSWLeftSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftSliderView.swift; sourceTree = "<group>"; };
+		34CD33001B9BC5260036418C /* LSWLeftCellConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftCellConfigure.swift; sourceTree = "<group>"; };
+		34D0D0DB1B99B2E40019CDE0 /* LSWLeftSliderTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftSliderTableView.swift; sourceTree = "<group>"; };
+		34D0D0DD1B99B3BC0019CDE0 /* LSWLeftSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftSliderCell.swift; sourceTree = "<group>"; };
+		34D0D0DF1B9A70810019CDE0 /* LSWLeftSlideContraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftSlideContraint.swift; sourceTree = "<group>"; };
+		34D0D0E11B9A7B760019CDE0 /* LSWLeftSliderTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftSliderTopView.swift; sourceTree = "<group>"; };
+		34D0D0E71B9A8BF20019CDE0 /* LeftSlider-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeftSlider-Bridging-Header.h"; sourceTree = "<group>"; };
+		34D0D0E81B9A8BF30019CDE0 /* UIImage+LSWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LSWCommon.h"; sourceTree = "<group>"; };
+		34D0D0E91B9A8BF30019CDE0 /* UIImage+LSWCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LSWCommon.m"; sourceTree = "<group>"; };
+		34D0D0EB1B9A8D2B0019CDE0 /* LSWUserMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWUserMessage.swift; sourceTree = "<group>"; };
+		34D0D0F31B9ABAE50019CDE0 /* LSWLeftSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftSettingView.swift; sourceTree = "<group>"; };
+		34D0D0F51B9ABBEA0019CDE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34D0D0F81B9AEC0D0019CDE0 /* LSWLeftSliderClickDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWLeftSliderClickDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3454B4451B99A12700FB7E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454B45D1B99A12800FB7E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3454B43F1B99A12700FB7E40 = {
+			isa = PBXGroup;
+			children = (
+				3454B44A1B99A12700FB7E40 /* LeftSlider */,
+				3454B4631B99A12800FB7E40 /* LeftSliderTests */,
+				3454B4491B99A12700FB7E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3454B4491B99A12700FB7E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3454B4481B99A12700FB7E40 /* LeftSlider.app */,
+				3454B4601B99A12800FB7E40 /* LeftSliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3454B44A1B99A12700FB7E40 /* LeftSlider */ = {
+			isa = PBXGroup;
+			children = (
+				3454B44D1B99A12800FB7E40 /* AppDelegate.swift */,
+				34D0D0F81B9AEC0D0019CDE0 /* LSWLeftSliderClickDelegate.swift */,
+				34D0D0DF1B9A70810019CDE0 /* LSWLeftSlideContraint.swift */,
+				3454B4521B99A12800FB7E40 /* ViewController.swift */,
+				34D0D0E11B9A7B760019CDE0 /* LSWLeftSliderTopView.swift */,
+				3454B4701B99A14500FB7E40 /* LSWLeftSliderView.swift */,
+				34D0D0DB1B99B2E40019CDE0 /* LSWLeftSliderTableView.swift */,
+				34D0D0DD1B99B3BC0019CDE0 /* LSWLeftSliderCell.swift */,
+				34D0D0EB1B9A8D2B0019CDE0 /* LSWUserMessage.swift */,
+				34D0D0F31B9ABAE50019CDE0 /* LSWLeftSettingView.swift */,
+				34CD33001B9BC5260036418C /* LSWLeftCellConfigure.swift */,
+				34D0D0E81B9A8BF30019CDE0 /* UIImage+LSWCommon.h */,
+				34D0D0E91B9A8BF30019CDE0 /* UIImage+LSWCommon.m */,
+				3454B4541B99A12800FB7E40 /* Main.storyboard */,
+				3454B4591B99A12800FB7E40 /* LaunchScreen.xib */,
+				3454B44F1B99A12800FB7E40 /* LeftSlider.xcdatamodeld */,
+				34D0D0F51B9ABBEA0019CDE0 /* Images.xcassets */,
+				3454B44B1B99A12700FB7E40 /* Supporting Files */,
+				34D0D0E71B9A8BF20019CDE0 /* LeftSlider-Bridging-Header.h */,
+			);
+			path = LeftSlider;
+			sourceTree = "<group>";
+		};
+		3454B44B1B99A12700FB7E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3454B44C1B99A12700FB7E40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3454B4631B99A12800FB7E40 /* LeftSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3454B4661B99A12800FB7E40 /* LeftSliderTests.swift */,
+				3454B4641B99A12800FB7E40 /* Supporting Files */,
+			);
+			path = LeftSliderTests;
+			sourceTree = "<group>";
+		};
+		3454B4641B99A12800FB7E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3454B4651B99A12800FB7E40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3454B4471B99A12700FB7E40 /* LeftSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3454B46A1B99A12800FB7E40 /* Build configuration list for PBXNativeTarget "LeftSlider" */;
+			buildPhases = (
+				3454B4441B99A12700FB7E40 /* Sources */,
+				3454B4451B99A12700FB7E40 /* Frameworks */,
+				3454B4461B99A12700FB7E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeftSlider;
+			productName = LeftSlider;
+			productReference = 3454B4481B99A12700FB7E40 /* LeftSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3454B45F1B99A12800FB7E40 /* LeftSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3454B46D1B99A12800FB7E40 /* Build configuration list for PBXNativeTarget "LeftSliderTests" */;
+			buildPhases = (
+				3454B45C1B99A12800FB7E40 /* Sources */,
+				3454B45D1B99A12800FB7E40 /* Frameworks */,
+				3454B45E1B99A12800FB7E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3454B4621B99A12800FB7E40 /* PBXTargetDependency */,
+			);
+			name = LeftSliderTests;
+			productName = LeftSliderTests;
+			productReference = 3454B4601B99A12800FB7E40 /* LeftSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3454B4401B99A12700FB7E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = WSY;
+				TargetAttributes = {
+					3454B4471B99A12700FB7E40 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3454B45F1B99A12800FB7E40 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3454B4471B99A12700FB7E40;
+					};
+				};
+			};
+			buildConfigurationList = 3454B4431B99A12700FB7E40 /* Build configuration list for PBXProject "LeftSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3454B43F1B99A12700FB7E40;
+			productRefGroup = 3454B4491B99A12700FB7E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3454B4471B99A12700FB7E40 /* LeftSlider */,
+				3454B45F1B99A12800FB7E40 /* LeftSliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3454B4461B99A12700FB7E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D0D0F61B9ABBEA0019CDE0 /* Images.xcassets in Resources */,
+				3454B4561B99A12800FB7E40 /* Main.storyboard in Resources */,
+				3454B45B1B99A12800FB7E40 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454B45E1B99A12800FB7E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3454B4441B99A12700FB7E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D0D0EA1B9A8BF30019CDE0 /* UIImage+LSWCommon.m in Sources */,
+				3454B4711B99A14500FB7E40 /* LSWLeftSliderView.swift in Sources */,
+				34D0D0EC1B9A8D2B0019CDE0 /* LSWUserMessage.swift in Sources */,
+				34D0D0F41B9ABAE50019CDE0 /* LSWLeftSettingView.swift in Sources */,
+				34CD33011B9BC5260036418C /* LSWLeftCellConfigure.swift in Sources */,
+				34D0D0E01B9A70810019CDE0 /* LSWLeftSlideContraint.swift in Sources */,
+				3454B4531B99A12800FB7E40 /* ViewController.swift in Sources */,
+				3454B44E1B99A12800FB7E40 /* AppDelegate.swift in Sources */,
+				34D0D0F91B9AEC0D0019CDE0 /* LSWLeftSliderClickDelegate.swift in Sources */,
+				34D0D0DE1B99B3BC0019CDE0 /* LSWLeftSliderCell.swift in Sources */,
+				34D0D0DC1B99B2E40019CDE0 /* LSWLeftSliderTableView.swift in Sources */,
+				34D0D0E21B9A7B760019CDE0 /* LSWLeftSliderTopView.swift in Sources */,
+				3454B4511B99A12800FB7E40 /* LeftSlider.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454B45C1B99A12800FB7E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3454B4671B99A12800FB7E40 /* LeftSliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3454B4621B99A12800FB7E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3454B4471B99A12700FB7E40 /* LeftSlider */;
+			targetProxy = 3454B4611B99A12800FB7E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3454B4541B99A12800FB7E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3454B4551B99A12800FB7E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3454B4591B99A12800FB7E40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3454B45A1B99A12800FB7E40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3454B4681B99A12800FB7E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3454B4691B99A12800FB7E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3454B46B1B99A12800FB7E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LeftSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeftSlider/LeftSlider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3454B46C1B99A12800FB7E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LeftSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeftSlider/LeftSlider-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3454B46E1B99A12800FB7E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeftSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftSlider.app/LeftSlider";
+			};
+			name = Debug;
+		};
+		3454B46F1B99A12800FB7E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeftSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftSlider.app/LeftSlider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3454B4431B99A12700FB7E40 /* Build configuration list for PBXProject "LeftSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3454B4681B99A12800FB7E40 /* Debug */,
+				3454B4691B99A12800FB7E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3454B46A1B99A12800FB7E40 /* Build configuration list for PBXNativeTarget "LeftSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3454B46B1B99A12800FB7E40 /* Debug */,
+				3454B46C1B99A12800FB7E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3454B46D1B99A12800FB7E40 /* Build configuration list for PBXNativeTarget "LeftSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3454B46E1B99A12800FB7E40 /* Debug */,
+				3454B46F1B99A12800FB7E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3454B44F1B99A12800FB7E40 /* LeftSlider.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3454B4501B99A12800FB7E40 /* LeftSlider.xcdatamodel */,
+			);
+			currentVersion = 3454B4501B99A12800FB7E40 /* LeftSlider.xcdatamodel */;
+			path = LeftSlider.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3454B4401B99A12700FB7E40 /* Project object */;
+}
